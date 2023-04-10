@@ -1,0 +1,14 @@
+Id: Image_Size_Saver
+Name: Image Size Saver
+Author: darklinkpower & me
+Version: 2.12
+Module: ImageSizeSaver.psm1
+Type: Script
+Icon: icon.png
+Links:
+    - Name: GitHub
+      Url: https://github.com/darklinkpower/PlayniteExtensionsCollection
+    - Name: Playnite Forums thread
+      Url: https://playnite.link/forum/thread-372.html
+    - Name: Translate
+      Url: https://crowdin.com/project/darklinkpower-playnite-extensi
