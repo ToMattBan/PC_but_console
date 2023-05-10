@@ -23,7 +23,7 @@ Hey people from Earth, this guide is for you (if you are an alien, then get out 
 
 So, first of all, I need to tell you some things:
 
-**0 - Read the entire guide before proceeding!**
+### **0 - Read the entire guide before proceeding!**
 
 1 - I will not teach you how to download any kind of game. You will need to find it yourself.
 
