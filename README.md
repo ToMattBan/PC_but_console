@@ -1,6 +1,6 @@
 # Playnite as a Game Station Tutorial
 
-## The guide is better when readded on notion [here](https://shiny-cafe-bdd.notion.site/Playnite-as-a-Game-Station-Tutorial-7564a4e7bf8d468f947777a7912a7a58)
+## The guide is better when it's read here on notion [here](https://shiny-cafe-bdd.notion.site/Playnite-as-a-Game-Station-Tutorial-7564a4e7bf8d468f947777a7912a7a58)
 
 
 ## Index
