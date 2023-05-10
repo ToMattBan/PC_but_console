@@ -50,11 +50,11 @@ So, first of all, I need to tell you some things:
     - Press *F4* to open the settings menu.
     - Access the `General` settings and configure them as follows:
     
-    ![Untitled](Playnite%20as%20a%20Game%20Station%20Tutorial%207564a4e7bf8d468f947777a7912a7a58/Untitled.png)
+        ![0](/Images/0.png)
     
     - On `Metadata`, configure it as follows:
     
-    ![Untitled](Playnite%20as%20a%20Game%20Station%20Tutorial%207564a4e7bf8d468f947777a7912a7a58/Untitled%201.png)
+        ![1](/Images/1.png)
     
     - On `Auto Close Clients`, select all clients and set a time limit that you believe is appropriate (I recommend 240 seconds).
 - Pluggins Settings
@@ -73,11 +73,11 @@ So, first of all, I need to tell you some things:
         - Click on `Apply changes` on the button on the beggining of the page
     - On `Extra Metadata Loader` click on `Download ffmpeg package` and `Download yt-dlp`. Save these files to a location of your choice (I saved them inside the extension folder). Next, point the files to Playnite by clicking on `Browse…`
     
-    ![Untitled](Playnite%20as%20a%20Game%20Station%20Tutorial%207564a4e7bf8d468f947777a7912a7a58/Untitled%202.png)
+        ![2](/Images/2.png)
     
     - Then, scroll to the end and let configure it as follow:
     
-    ![Untitled](Playnite%20as%20a%20Game%20Station%20Tutorial%207564a4e7bf8d468f947777a7912a7a58/Untitled%203.png)
+        ![3](/Images/3.png)
     
     - Go to the `Game Pass Catalog Browser` and select your country. Then, choose the boxes that best fit your preferences.
     - On `SuccessStory`, enable the achievements you want to track. If you want to play retro games, check out [RetroAchievements](https://retroachievements.org/) and get an API Key [here](https://retroachievements.org/controlpanel.php).
@@ -85,7 +85,7 @@ So, first of all, I need to tell you some things:
     - Click `Save`
     - Download [Image Magick](https://imagemagick.org/) and install it wherever you want. Then, proceed with the steps on the image.
     
-    ![Untitled](Playnite%20as%20a%20Game%20Station%20Tutorial%207564a4e7bf8d468f947777a7912a7a58/Untitled%204.png)
+        ![4](/Images/4.png)
     
     - If it asks for Image Magick, just point it to where you install it.
 - Emulators Settings
@@ -103,11 +103,11 @@ So, first of all, I need to tell you some things:
         - Leave all other settings at their default values.
         - Example Pics
             
-            ![Playnite%20as%20a%20Game%20Station%20Tutorial%207564a4e7bf8d468f947777a7912a7a58/Untitled%205.png](Playnite%20as%20a%20Game%20Station%20Tutorial%207564a4e7bf8d468f947777a7912a7a58/Untitled%205.png)
+             ![5](/Images/5.png)
             
             PCSX2 Settings Screen
             
-            ![Playnite%20as%20a%20Game%20Station%20Tutorial%207564a4e7bf8d468f947777a7912a7a58/Untitled%206.png](Playnite%20as%20a%20Game%20Station%20Tutorial%207564a4e7bf8d468f947777a7912a7a58/Untitled%206.png)
+             ![6](/Images/6.png)
             
             Flash Player Settings Screen
             
@@ -128,11 +128,11 @@ So, first of all, I need to tell you some things:
     - Open Playnite on Window Mode
     - Click on the filter icon
         
-        ![Untitled](Playnite%20as%20a%20Game%20Station%20Tutorial%207564a4e7bf8d468f947777a7912a7a58/Untitled%207.png)
+        ![7](/Images/7.png)
         
     - Chose the filter that most suits you, in my case I will create a filter for PS2 games:
     
-    ![Untitled](Playnite%20as%20a%20Game%20Station%20Tutorial%207564a4e7bf8d468f947777a7912a7a58/Untitled%208.png)
+        ![8](/Images/8.png)
     
     - I put Library as Playnite to just have the games that run on the emulator. You can have some games on Steam that will also have “PlayStation2” as their platform along with PC.
     - Click then on the Save icon
@@ -166,7 +166,7 @@ So, first of all, I need to tell you some things:
     
     To install Image Size Saver, create a folder called “Image_Size_Saver” in \Playnite\Extensions and put all the contents from the GitHub link inside it. The result will be:
     
-    ![Untitled](Playnite%20as%20a%20Game%20Station%20Tutorial%207564a4e7bf8d468f947777a7912a7a58/Untitled%209.png)
+    ![9](/Images/9.png)
     
 
 ### 1.3 - Scripts
@@ -191,7 +191,7 @@ So, first of all, I need to tell you some things:
     - On Playnite, select the option to add a manual game, put the name as “Run Windows” or something like that
     - On “Actions”, create a new Play Action and point it to your `explorerShell.exe`
     
-    ![Untitled](Playnite%20as%20a%20Game%20Station%20Tutorial%207564a4e7bf8d468f947777a7912a7a58/Untitled%2010.png)
+        ![10](/Images/10.png)
     
     - Save it and done! Now, everythime you want to use your computer as Windows, just run this “Game”. I recommend to put it in your favorites.
 - Open Playnite on Windows place
@@ -214,7 +214,7 @@ So, first of all, I need to tell you some things:
     - Now open Regex and navegate to `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon`
     - Open on the key named “Shell” with a double click and point it to where is the exe we created at "Open Windows"
     
-    ![Untitled](Playnite%20as%20a%20Game%20Station%20Tutorial%207564a4e7bf8d468f947777a7912a7a58/Untitled%2011.png)
+        ![11](/Images/11.png)
     
     - Save it
 - Converting bat scripts to exe
@@ -240,7 +240,7 @@ So, first of all, I need to tell you some things:
     }
     ```
     
-    ![Untitled](Playnite%20as%20a%20Game%20Station%20Tutorial%207564a4e7bf8d468f947777a7912a7a58/Untitled%2012.png)
+    ![12](/Images/12.png)
     
     - This will make sure that explorer.exe starts before the game.
 
