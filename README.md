@@ -200,7 +200,6 @@ To install Image Size Saver, create a folder called “Image_Size_Saver” in \P
 "D:\Playnite\tools\ffmpeg-6.0-essentials_build\bin\ffplay.exe" -i "D:\Playnite\!_Scripts\IntroVideo.mp4" -fs -alwaysontop -noborder -autoexit -loglevel quiet -loop 2 2>NUL
 ```
 
-- If you are using a screen larger than 1080p, edit the values `-x  1920  -y  1080` or remove them as it seems to work without. 
 - Before the video path, there is the `-loop` argument with the value 2, this will make the video be played 2 times. Faster systems will only need 1 loop while slower systems need more time. 
 - Change the paths to your owns.
 - Playnite currently does not support controllers with DirectInput. If you are not using a controller with XInput or a mouse and keyboard, Download [XOutput](https://github.com/csutorasa/XOutput) to map your controllers to XInput. 
