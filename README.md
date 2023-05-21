@@ -200,14 +200,39 @@ start "" "D:\Playnite\Playnite.FullscreenApp.exe" --hidesplashscreen
 start "" "D:\Playnite\tools\ffmpeg-6.0-essentials_build\bin\ffplay.exe" -left 0 -top 0 -x 1920 -y 1080 -alwaysontop -noborder -autoexit -loglevel quiet -loop 2 "D:\Playnite\!_Scripts\IntroVideo.mp4" 2>NUL
 ```
 
+- If you are using a screen larger than 1080p, edit the values `-x  1920  -y  1080` or remove them as it seems to work without. 
+- Before the video path, there is the `-loop` argument with the value 2, this will make the video be played 2 times. Faster systems will only need 1 loop while slower systems need more time. 
 - Change the paths to your owns.
-- Before the video path, there is the `-loop` argument with the value 2, this will make the video be played 2 times, you can change it to how many times it will be needed. Here, just 1 time don’t give Playnite time to really open, so play with this number until you get what you want.
+- Playnite currently does not support controllers with DirectInput. If you are not using a controller with XInput or a mouse and keyboard, Download [XOutput](https://github.com/csutorasa/XOutput) to map your controllers to XInput. 
+	- You will also need to add the following line to the start of Launch Playnite.bat file to start this XOutput on startup. The timeout is to prevent XOutput from starting on top of Playnite. 
+	```bash
+	start ""  "C:\Path\to\XOutput.exe"
+	timeout /t 1
+	```
 - Then follow Converting bat scripts to exe (guide below)
 - Then follow Open Playnite on Windows place (guide below), in the end, come back and follow the last steps:
 - On Playnite, select the option to add a manual game, put the name as “Run Windows” or something like that
 - On “Actions”, create a new Play Action and point it to your `explorerShell.exe`
     ![10](/Images/10.png)
 - Save it and done! Now, everythime you want to use your computer as Windows, just run this “Game”. I recommend to put it in your favorites.
+</details>
+
+<details>
+    <summary>Setup Windows Autologon</summary>
+
+- Open up REGEDIT on your computer to edit registry keys
+- Locate the `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon` subkey in the registry.
+- On the  `Edit`  menu, click  `New`, and then point to  `String Value`
+-  Type  _AutoAdminLogon_, and then press Enter.
+- Double-click  `AutoAdminLogon`.
+- In the  `Edit String`  dialog box, type  `1`  and then click  `OK`.
+- Double-click the  `DefaultUserName`  entry, type your user name, and then click  `OK`.
+- Double-click the  `DefaultPassword`  entry, type your password, and then click  `OK`.
+	- If the  `DefaultPassword` or `DefaultUserName` value does not exist, it must be added. To add the value, follow these steps:
+	    1.  On the  `Edit`  menu, click  `New`, and then point to  `String Value`.
+	    2.  Type  _DefaultPassword_ or _DefaultUserName_, and then press Enter.
+	    3.  Double-click  `DefaultPassword` or `DefaultUserName`.
+	    4.  In the  `Edit String`  dialog, type your password or username depending on the field and then click  `OK`.
 </details>
 
 <details>
@@ -226,10 +251,10 @@ reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogo
 exit
 ```
 
-- On the 6th line, change the Playnite path to where is the exe we created at "Open Windows"
+- On the 6th line, change the Playnite path to the exe we created during "Open Windows"
 - Then follow "Converting bat scripts to exe" (guide below)
 - Now open Regex and navegate to `Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows NT\CurrentVersion\Winlogon`
-- Open on the key named “Shell” with a double click and point it to where is the exe we created at "Open Windows"
+- Edit the key named “Shell” and point it to the exe we created at "Open Windows"
     ![11](/Images/11.png)
 - Save it
 </details>
@@ -248,7 +273,7 @@ exit
 <details>
     <summary>Game Pass Games Settings</summary>
     
-So, if you try to start a Game Pass game, you will be wellcomed with an error. This is simple to solve, but you will need to do it for every game.
+If you try to start a Game Pass game, you will be welcomed with an error. This is simple to solve, but you will need to do it for every game.
     
 - In Desktop mode, sellect your game and press `F3`
 - Go to Scripts tab and paste the following code to `Execute before starting a game`:
@@ -279,3 +304,7 @@ Guide on how to set Playnite Moden UI [Playnite Forums](https://playnite.link/fo
 Guide on how to start playnite instead of windows [Playnite Forums](https://playnite.link/forum/thread-967.html)
 
 Guide on how to start a video instead of playnite splashcreen [Playnite Forums](https://playnite.link/forum/thread-686-post-4647.html)
+
+Guide Contruibuitors:
+- [ToMattBan](https://github.com/ToMattBan) (This is me XD)
+- [Snazzard](https://www.reddit.com/user/Snazzard/)
