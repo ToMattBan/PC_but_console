@@ -56,8 +56,9 @@ So, first of all, I need to tell you some things:
 - Press *F4* to open the settings menu.
 - Access the `General` settings and configure them as follows:    
     ![0](/Images/0.png)    
-- On `Metadata`, configure it as follows:    
+- On `Metadata`, click on the select and let it like this:    
     ![1](/Images/1.png)    
+- Then click `Select All` button and finnaly `Apply to All`
 - On `Auto Close Clients`, select all clients and set a time limit that you believe is appropriate (I recommend 240 seconds).    
 </details>
 
