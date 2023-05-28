@@ -197,7 +197,7 @@ To install Image Size Saver, create a folder called “Image_Size_Saver” in \P
 ```bash
 @echo off
 
-"D:\Playnite\Playnite.FullscreenApp.exe" --hidesplashscreen
+start "" "D:\Playnite\Playnite.FullscreenApp.exe" --hidesplashscreen
 "D:\Playnite\tools\ffmpeg-6.0-essentials_build\bin\ffplay.exe" -i "D:\Playnite\!_Scripts\IntroVideo.mp4" -fs -alwaysontop -noborder -autoexit -loglevel quiet -loop 2 2>NUL
 ```
 
