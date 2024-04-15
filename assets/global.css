@@ -1,0 +1,124 @@
+/* Markdown Styles for a Punk Style */
+body {
+  font-family: 'Courier New', monospace;
+  line-height: 1.6;
+  margin: 12px 24px;
+  padding: 0;
+  background-color: #222;
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #333;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+img {
+  width: 100%;
+  max-width: 900px;
+  display: block;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 0;
+  color: #ff5555;
+}
+
+h2 {
+  font-size: 28px;
+  margin-bottom: 0;
+  color: #ff7f00;
+}
+
+h3 {
+  font-size: 24px;
+  margin-bottom: 0;
+  color: #f9aa00;
+}
+
+p {
+  font-size: 18px;
+  margin-bottom: 1.2em;
+}
+
+ul, ol {
+  margin: 0;
+  padding-left: 20px;
+}
+
+a {
+  color: #66a3ff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+blockquote {
+  margin: 0;
+  padding: 10px 20px;
+  border-left: 4px solid #ff5555;
+  background-color: #444;
+}
+
+code {
+  font-family: 'Courier New', monospace;
+  background-color: #111;
+  padding: 2px 4px;
+  border: 0;
+  border-radius: 4px;
+  color: #ff5555;
+}
+
+pre {
+  font-family: 'Courier New', monospace;
+  background-color: #111;
+  padding: 10px;
+  border: 0;
+  border-radius: 4px;
+  overflow-x: auto;
+  color: #ff5555;
+}
+
+summary {
+  cursor: pointer;
+}
+
+/* Table Styles */
+table {
+  width: 100%;
+  max-width: 900px;
+  border-collapse: collapse;
+  background-color: #444;
+  border: 2px solid #ff5555;
+  margin: 10px auto;
+  color: #fff;
+}
+
+th, td {
+  border: 1px solid #ff5555;
+  padding: 8px;
+}
+
+th {
+  background-color: #ff5555;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #333;
+}
+
+/* Add more styles as needed */
+
+@media (max-width: 600px) {
+  .container {
+    padding: 10px;
+  }
+}
